@@ -108,10 +108,10 @@ def keep_project(lst_ids,github_ids):
 	return lst_ids[0]
 
 def remove_from_database(p_id,source,conn):
-	subsys_table = source+"_subsys_info"
-	hierar_table = source+"_hierar_info"
-	block_table = source+"_block_info"
-	metric_table = source+"_metric"
+	subsys_table = source+"_subsys"
+	hierar_table = source+"_model_hierar"
+	block_table = source+"_blocks"
+	metric_table = source+"_models"
 	project_table = source+"_projects"
 
 	cur = conn.cursor()
