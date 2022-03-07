@@ -77,5 +77,5 @@ SLNet-Miner uses python +  sqlAlchemy for fast developing.
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
    [Anaconda]: <https://www.anaconda.com/distribution/>
-   [SLNET]: <https://figshare.com/s/00cbee89eb96cddc259e>
+   [SLNET]: <https://doi.org/10.5281/zenodo.5259648>
 [here]: <https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line#creating-a-token>
