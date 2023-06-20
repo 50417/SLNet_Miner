@@ -1,6 +1,9 @@
 # SLNet-Miner
 SLNet-Miner is a tool to collect Simulink models from open source repositories such as GitHub and MATLAB Central
 
+## Recent News
+Our paper [SLNET] has been accepted at IEEE International Working Conference on Mining Software Repositories (MSR 2022, CORE: A)
+
 ### Installation
 
 SLNet-Miner is tested on Ubuntu 18.04 
@@ -58,7 +61,7 @@ $ python downloadRepoFromGithub.py -h
 The table name where metadata is stored can be changed MathWorksRepoInfo.py and SimulinkRepoInfo.py file respectively.
 
 #### 2. Duplicate Finder
-Download [SLNET] and the duplicate projects. Extract it and update the location in duplicate_project.py
+Download [SLNET-Corpus] and the duplicate projects. Extract it and update the location in duplicate_project.py
 ```sh
 $ python duplicate_project.py
 ```
@@ -77,5 +80,6 @@ SLNet-Miner uses python +  sqlAlchemy for fast developing.
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
    [Anaconda]: <https://www.anaconda.com/distribution/>
-   [SLNET]: <https://doi.org/10.5281/zenodo.5259648>
-[here]: <https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line#creating-a-token>
+   [SLNET-Corpus]: <https://doi.org/10.5281/zenodo.5259648>
+   [here]: <https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line#creating-a-token>
+   [SLNET]: <https://ranger.uta.edu/~csallner/papers/Shrestha22SLNET.pdf>
